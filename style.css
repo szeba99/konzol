@@ -1,0 +1,73 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background-image: linear-gradient(blue,black);
+    height: 100%;
+    scrollbar-width: none;
+    overflow: auto;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none; /* Firefox 64 */
+}
+
+html {overflow: -moz-scrollbars-none;}
+
+#three_divs
+{
+    height: 33.33%;
+}
+
+#dark_div
+{
+    background-color: rgba(0, 0, 0, 0.205);
+    height: 33.33%;
+    width: 100%;
+    /*z-index:9;*/
+    position:absolute;
+    /*top:33.33%;*/
+    overflow-x: hidden;
+    padding-left: 0%;
+    white-space:nowrap;
+}
+
+#icon1, #icon2
+{
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    /*height: 90%;*/
+    border-radius: 5%;
+    text-align: center;
+    padding: 6%;
+    margin:1%;
+    display:inline;
+    top:45%
+}
+
+#pseudoicon
+{
+    position: relative;
+    margin:1%;
+    display:inline;
+    top:45%;
+    background-color: rgba(0, 0, 0, 0);
+    width: 8%;
+    padding:6%;
+}
+
+@keyframes opacity_up
+{
+    from
+    {
+        opacity: 0;
+    }   
+    to
+    {
+        opacity: 1;
+    } 
+}
