@@ -60,7 +60,7 @@ function checkKey(e) {
 
         if (position == 0)
         {
-            window.open("https://wadcmd.com/doom1.97be5d85.wad");
+            window.open("https://wadcmd.com/");
         }
 
         if (position == 1)
